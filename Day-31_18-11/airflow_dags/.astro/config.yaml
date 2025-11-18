@@ -1,0 +1,4 @@
+postgres:
+    port: "8888"
+project:
+    name: airflow-dags
