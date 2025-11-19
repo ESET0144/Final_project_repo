@@ -1,0 +1,6 @@
+datetime,meter_id,location,daily_consumption_load,energy_supplied,energy_billed
+01-01-2021 00:00,ACE43B7D,Chennai,2.59,2.78,2.57
+01-01-2021 00:15,ACE43B7D,Chennai,1.78,2.12,1.86
+01-01-2021 00:30,ACE43B7D,Chennai,2.59,2.68,2.52
+01-01-2021 00:45,ACE43B7D,Chennai,2.45,2.56,2.5
+01-01-2021 01:00,ACE43B7D,Chennai,1.48,1.56,1.49

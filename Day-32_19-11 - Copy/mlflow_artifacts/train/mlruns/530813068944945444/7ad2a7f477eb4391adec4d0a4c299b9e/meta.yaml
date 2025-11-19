@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/530813068944945444/7ad2a7f477eb4391adec4d0a4c299b9e/artifacts
+end_time: 1763527405776
+entry_point_name: ''
+experiment_id: '530813068944945444'
+lifecycle_stage: active
+run_id: 7ad2a7f477eb4391adec4d0a4c299b9e
+run_name: sneaky-fox-87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763527398670
+status: 3
+tags: []
+user_id: user

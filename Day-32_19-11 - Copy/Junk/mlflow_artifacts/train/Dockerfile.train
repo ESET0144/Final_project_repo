@@ -1,0 +1,9 @@
+FROM python:3.11-slim
+WORKDIR /app
+
+COPY requirements-train.txt .
+RUN pip install --no-cache-dir -r requirements-train.txt
+
+COPY src/ ./src/
+
+CMD ["bash", "-c", "python src/train.py"]
