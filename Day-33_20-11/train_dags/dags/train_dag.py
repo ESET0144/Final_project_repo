@@ -67,7 +67,7 @@ def prepare_data(**context):
     
     print("✅ Data successfully pushed to XCom")
     
-    return "Data prepared success"
+    return "Data prepared successfull, great"
 
 
 def train_model(**context):
