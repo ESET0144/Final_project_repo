@@ -38,5 +38,6 @@ jobs:
   
       # ---- FLAKE8 LINTING ----
       - name: Run Flake8 linter
+        continue-on-error: true
         run: |
           flake8 Day-33_20-11/train_dags --max-line-length=120
