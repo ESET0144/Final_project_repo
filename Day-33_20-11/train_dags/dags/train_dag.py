@@ -16,6 +16,8 @@ def load_data():
     db_url = "postgresql+psycopg2://postgres:postgres@host.docker.internal:5432/merged_database"
     engine = create_engine(db_url)
 
+
+
     query = """
         SELECT 
             meter_id,
@@ -66,6 +68,7 @@ def prepare_data(**context):
     print("✅ Data successfully pushed to XCom")
     
     return "Data prepared successfully"
+
 
 def train_model(**context):
     print("Starting model training...")
