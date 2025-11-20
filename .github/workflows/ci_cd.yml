@@ -28,7 +28,7 @@ jobs:
       # ---- BLACK FORMATTING ----
       - name: Run Black formatter
         run: |
-          black DAY-33_20-11/train_dags
+          black Day-33_20-11/train_dags
 
       - name: Auto-commit formatted code
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -39,4 +39,4 @@ jobs:
       # ---- FLAKE8 LINTING ----
       - name: Run Flake8 linter
         run: |
-          flake8 DAY-33_20-11/train_dags --max-line-length=120
+          flake8 Day-33_20-11/train_dags --max-line-length=120
