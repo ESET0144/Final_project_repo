@@ -3,10 +3,10 @@ name: Format & Lint Python Code
 on:
   push:
     paths:
-      - "DAY-33_20-11/train_dags/**/*.py"
+      - "Day-33_20-11/train_dags/**/*.py"
   pull_request:
     paths:
-      - "DAY-33_20-11/train_dags/**/*.py"
+      - "Day-33_20-11/train_dags/**/*.py"
 
 jobs:
   format_lint:
